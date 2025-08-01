@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Ahmad-Imran-s-workspace-912d1d.eu-central-1.xata.sh/db/clip-sync",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
