@@ -9,8 +9,8 @@ const geistKarla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "SnapCast",
-  description: "A Screen Sharing App",
+  title: "ClipSync",
+  description: "A Screen Sharing and video recording App",
   icons: {
     icon: "/assets/icons/logo.svg",
   },

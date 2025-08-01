@@ -94,7 +94,7 @@
   }
 
   .page {
-    @apply flex flex-col min-h-screen pt-12.5 pb-20 gap-9;
+    @apply flex flex-col min-h-screen pt-8 pb-20 gap-9;
   }
 
   .overlay {
