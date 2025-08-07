@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "./globals.css";
 import { satoshi } from "../fonts/font";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const geistKarla = Karla({
   variable: "--font-geist-karla",
@@ -26,7 +27,9 @@ export default function Layout({
       <body
         className={`${geistKarla.variable} ${satoshi.variable} font-karla antialiased`}
       >
-        {children}
+        <ClerkProvider appearance={{ variables: { colorPrimary: '#171717' }}} >
+          {children}
+        </ClerkProvider>
       </body>
     </html>
   );
