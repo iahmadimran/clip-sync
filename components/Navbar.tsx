@@ -7,7 +7,7 @@ import React from 'react'
 
 
 async function Navbar() {
-  const user = await currentUser()
+  // const user = await currentUser()
 
   return (
     <header className='navbar'>
