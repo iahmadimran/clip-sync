@@ -1,7 +1,6 @@
 import EmptyState from '@/components/EmptyState'
 import Header from '@/components/Header'
 import VideoCard from '@/components/VideoCard'
-import { dummyCards } from '@/constants'
 import { getAllVideos } from '@/lib/actions/video'
 import { currentUser } from '@clerk/nextjs/server'
 import { redirect } from 'next/navigation'
