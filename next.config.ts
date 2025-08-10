@@ -7,6 +7,11 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    remotePatterns: [
+      { hostname: 'clip-sync-app.b-cdn.net', protocol: 'https', port: '', pathname: '/**' }
+    ]
+  }
 };
 
 export default nextConfig;

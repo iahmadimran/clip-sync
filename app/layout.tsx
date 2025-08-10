@@ -10,7 +10,7 @@ const geistKarla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "ClipSync",
+  title: "ClipSync - Your Best Screen Recording App",
   description: "A Screen Sharing and video recording App",
   icons: {
     icon: "/assets/icons/logo.svg",
